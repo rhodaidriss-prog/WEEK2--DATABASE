@@ -9,19 +9,19 @@ FROM orders
 WHERE status = 'In process'
 ORDER BY orderDate DESC
 
-Question 3: Find Sales representatives
+--Question 3: Find Sales representatives
 
 SELECT FIRSName, lastName, email
 FROM EMPLOYEES
 WHERE jobTitle = 'sales Rep'
 ORDER BY employeenumber DESC;
 
-Question 4: Retrieve Office Information
+--Question 4: Retrieve Office Information
 
 	SELECT *
     FROM offices;
     
-    Question 5:Retrieve the five chaepest products
+    --Question 5:Retrieve the five chaepest products
     
     
     SELECT productName, quantityInstock
